@@ -19,16 +19,28 @@
 
 <h1>Mini Form</h1>
 <form action="https://kode.ch/getpost" method="get">
-    <label for="email">E-mail</label>
-    <input id="email" name="email" type="email">
+    <ul>
+        <li>
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email">
+        </li>
+        <li>
+            <label for="mot-de-passe">Mot de passe</label>
+            <input id="mot-de-passe" name="password" type="password">
+        </li>
+        <li>
+            <label for="confirmation">Confirmer mot de passe</label>
+            <input id="confirmation" name="confirmation" type="password">
+        </li>
+        <li>
+            <button>Crée un compte</button>
+        </li>
+    </ul>
 
-    <label for="password">Password</label>
-    <input id="password" name="password" type="text">
 
-    <label for="confirme-password">E-mail</label>
-    <input id="confirme-password" name="confirme-password" type="text">
 
-    <button>Crée un compte</button>
+
+
 </form>
 <script src="js/main.js"></script>
 </body>
