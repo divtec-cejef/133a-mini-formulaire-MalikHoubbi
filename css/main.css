@@ -57,6 +57,7 @@ form {
     background-color: white;
     border: 6px solid #2c3e50;
     border-radius: 5%;
+
 }
 
 form ul {
@@ -76,7 +77,48 @@ label {
     cursor: pointer;
 }
 
+input,
+select {
+    border: 2px solid #2c3e50;
+    background-color: white;
+    padding: 0.4em;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+/* Pour les champs E-mail invalid*/
+input[type="email"]:invalid {
+    border-color: red;
+}
+/* Pour les champs E-mail valid*/
+input[type="email"]:valid {
+    border-color: mediumseagreen;
+}
 
+
+/* pour le radios bt et checkbox */
+label input {
+    display: inline-block;
+    width: auto;
+}
+fieldset {
+    border: 2px solid #2c3e50;
+}
+
+fieldset legend {
+    font-weight: bold;
+    padding: 0 0.5em;
+}
+
+fieldset label {
+    font-weight: normal;
+    margin: 0.5em 0;
+}
+
+fieldset input:checked + span {
+    font-weight: bold;
+}
 
 
 
