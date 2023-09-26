@@ -51,9 +51,3 @@ formulaire.addEventListener('submit', function (event){
     formulaire.submit();
 });
 
-
-/**********************************************
- AJOUT DES ANIMATIONS
- *********************************************/
-
-console.log(txtMdp, txtConfirmation, btCreerCompte);
